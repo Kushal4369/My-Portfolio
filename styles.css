@@ -91,7 +91,7 @@ p {
   background-color: black;
 }
 
-@media screen and (max-width:500px) {
+@media (max-width:500px) {
   .card{
     flex: 100%;
   }
