@@ -84,14 +84,19 @@ p {
   max-width: 400px;
   background-color: white;
   border-radius: 16px;
-  border: 2px solid blue;
+  border: 5px solid rgb(53, 7, 105);
   margin: 10px;
   padding: 5px;
   position: relative;
+  background-color: black;
 }
 
 @media screen and (max-width:500px) {
   .card{
     flex: 100%;
   }
+  .nav_items{
+    flex-direction: column;
+  }
 }
+
