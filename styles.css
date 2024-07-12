@@ -98,5 +98,8 @@ p {
   .nav_items{
     flex-direction: column;
   }
+  .project_container{
+    flex-direction: column;
+  }
 }
 
