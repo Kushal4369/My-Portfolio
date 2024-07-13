@@ -1,5 +1,5 @@
 .divider{
-    width: 100;
+    width: 100%;
     background-color: #470089;
     height: 2px;
 }
@@ -222,11 +222,17 @@ p {
 h2 {
   text-align: center;
   color: white;
-  font-size: x-large;
+  font-size: 30px;
 }
 
 progress {
   visibility: hidden;
   width: 0;
   height: 0;
+}
+
+@media (max-width:500px){
+  .progress-bars{
+    flex-direction: column;
+  }
 }
