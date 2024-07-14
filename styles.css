@@ -43,7 +43,7 @@ p {
 
 .animation {
   height:50px;
-  overflow:visible;
+  overflow:hidden;
   margin-left: 1rem;
 }
 
@@ -69,9 +69,9 @@ p {
   0% {margin-top: 0;}
   10% {margin-top: 0;}
   20% {margin-top: 0;}
-  30% {margin-top: -5.62rem;}
-  40% {margin-top: -5.62rem;}
-  60% {margin-top: -5.62rem;}
+  30% {margin-top:  -5.62rem;}
+  40% {margin-top:  -5.62rem;}
+  60% {margin-top:  -5.62rem;}
   70% {margin-top: -5.62rem;}
   80% {margin-top: 0;}
   90% {margin-top: 0;}
@@ -80,7 +80,7 @@ p {
 
 /* CSS Cards */
 .card{
-  height: 500px;
+  height: 550px;
   max-width: 400px;
   background-color: white;
   border-radius: 16px;
