@@ -91,17 +91,6 @@ p {
   background-color: black;
 }
 
-@media (max-width:500px) {
-  .card{
-    flex: 100%;
-  }
-  .nav_items{
-    flex-direction: column;
-  }
-  .project_container{
-    flex-direction: column;
-  }
-}
 
 
 /* Skills Progress Bars */
@@ -231,8 +220,34 @@ progress {
   height: 0;
 }
 
+
+.menu{
+  display: none;
+}
 @media (max-width:500px){
   .progress-bars{
     flex-direction: column;
   }
+  .card{
+    flex: 100%;
+  }
+  .nav_items{
+    flex-direction: column;
+  }
+  .project_container{
+    flex-direction: column;
+  }
+
+  .menu{
+    display: initial;
+
+  }
+  .container{
+    display: none;
+  }
+
+  .navbar{
+    justify-content: space-between;
+  }
+
 }
