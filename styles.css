@@ -255,7 +255,7 @@ progress {
     align-items: center;
   }
 
-  .image-container, .intro-container{
+  .image-container + .intro-container{
     width: 80%;
   }
 
