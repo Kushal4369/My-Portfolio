@@ -43,7 +43,7 @@ p {
 
 .animation {
   height:50px;
-  overflow:hidden;
+  overflow:visible;
   margin-left: 1rem;
 }
 
@@ -55,7 +55,7 @@ p {
 }
 
 .animation div:first-child {
-  animation: text-animation 7s infinite;
+  animation: text-animation 5s infinite;
 }
 
 .first div {
@@ -68,12 +68,12 @@ p {
 @keyframes text-animation {
   0% {margin-top: 0;}
   10% {margin-top: 0;}
-  20% {margin-top: -5.62rem;}
+  20% {margin-top: 0;}
   30% {margin-top: -5.62rem;}
-  40% {margin-top: -11.24rem;}
-  60% {margin-top: -11.24rem;}
+  40% {margin-top: -5.62rem;}
+  60% {margin-top: -5.62rem;}
   70% {margin-top: -5.62rem;}
-  80% {margin-top: -5.62rem;}
+  80% {margin-top: 0;}
   90% {margin-top: 0;}
   100% {margin-top: 0;}
 }
@@ -250,4 +250,20 @@ progress {
     justify-content: space-between;
   }
 
-}
+  .intro{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-container, .intro-container{
+    width: 80%;
+  }
+
+  .container-1{
+    flex-direction: column;
+  }
+  .animation{
+    overflow: hidden;
+  }
+  }
+
