@@ -65,6 +65,11 @@ p {
   background-color:#CD921E;
 }
 
+@keyframes card-animation {
+ from {bottom: 0px;}
+ to {bottom: 20px;}
+}
+
 @keyframes text-animation {
   0% {margin-top: 0;}
   10% {margin-top: 0;}
@@ -84,11 +89,20 @@ p {
   max-width: 400px;
   background-color: white;
   border-radius: 16px;
-  border: 5px solid rgb(53, 7, 105);
-  margin: 10px;
-  padding: 5px;
+  box-shadow: rgba(136, 165, 191, 0.48) 2px 2px 4px 0px, rgba(38, 37, 37, 0.8) -2px -2px 4px 0px;
+    margin: 10px;
+  /* padding: 5px; */
   position: relative;
   background-color: black;
+  
+}
+
+.card:hover{
+
+  bottom: 20px;
+  transition:ease-out;
+  animation-name: card-animation;
+  animation-duration: 0.5s;
 }
 
 
